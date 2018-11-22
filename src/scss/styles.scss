@@ -1,0 +1,23 @@
+//Theming Bootstrap
+//Variable overrides
+
+$body-bg:#ededed;
+
+//dereferencing theme-color variable
+$theme-colors:(
+    "primary":#d95700
+);
+.jumbotron{
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219,219,219);
+}
+.footer{
+    background-color: darkgrey !important;
+}
+//Bootstrap and its default variables
+//@import "node_modules/bootstrap/scss/bootstrap";
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
